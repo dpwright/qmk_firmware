@@ -171,6 +171,20 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 };
 
+enum combos {
+  LPLUS_ENTER,
+  JK_SPACE
+};
+
+const uint16_t PROGMEM lplus_combo[]  = {KC_L, KC_SCLN, COMBO_END};
+const uint16_t PROGMEM jk_combo[]     = {KC_J, KC_K, COMBO_END};
+
+combo_t key_combos[COMBO_COUNT] = {
+  [LPLUS_ENTER]   = COMBO(lplus_combo, KC_ENT),
+  [JK_SPACE]      = COMBO(jk_combo, KC_SPC)
+};
+
+
 #ifdef AUDIO_ENABLE
   float plover_song[][2]     = SONG(PLOVER_SOUND);
   float plover_gb_song[][2]  = SONG(PLOVER_GOODBYE_SOUND);

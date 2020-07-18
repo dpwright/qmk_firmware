@@ -34,3 +34,5 @@
 // Most tactile encoders have detents every 4 stages
 #define ENCODER_RESOLUTION 4
 
+/* Combo settings */
+#define COMBO_COUNT 2
