@@ -140,7 +140,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_ESC,  JP_Q,    JP_W,    JP_E,    JP_R,                   JP_T,    JP_Y,    JP_U,                   JP_I,    JP_O,    JP_P,    KC_BSPC,
     KC_LCTL, JP_A,    JP_S,    JP_D,    JP_F,                   JP_G,    JP_H,    JP_J,                   JP_K,    JP_L,    JP_SCLN, JP_COLN,
     KC_LSFT, JP_Z,    JP_X,    JP_C,    JP_V,                   JP_B,    JP_N,    JP_M,                   JP_COMM, JP_DOT,  JP_SLSH, JP_BSLS,
-    KC_TAB,  BACKLIT, KC_LALT, KC_LGUI, LT(_LOWER, JP_MEISU),   KC_SPC,  KC_SPC,  LT(_RAISE, JP_MKANA),   KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
+    KC_TAB,  BACKLIT, KC_LALT, KC_LGUI, LT(_LOWER, JP_MEISU),   _______,  KC_SPC,  LT(_RAISE, JP_MKANA),   KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
 ),
 
 /* Colemak
@@ -201,7 +201,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * ,-----------------------------------------------------------------------------------.
  * |      |   1  |   2  |   3  |   4  |   5  |   6  |   7  |   8  |   9  |   0  |      |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
- * | Del  |  F1  |  F2  |  F3  |  F4  |  F5  |  F6  |   -  |   =  |   ¥  |   @  |  [   |
+ * | Del  |  F1  |  F2  |  F3  |  F4  |  F5  |  F6  |   -  |   ^  |   ¥  |   @  |  [   |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
  * |      |  F7  |  F8  |  F9  |  F10 |  F11 |  F12 |ISO # |ISO / |Pg Up |Pg Dn |  ]   |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
