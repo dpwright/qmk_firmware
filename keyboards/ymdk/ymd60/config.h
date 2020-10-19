@@ -55,4 +55,11 @@
 #define RGBLIGHT_VAL_STEP 8
 #endif
 
+/* Tap and hold settings */
+#define TAPPING_TERM 200
+#define IGNORE_MOD_TAP_INTERRUPT
+
+/* Combo settings */
+#define COMBO_COUNT 1
+
 #endif
