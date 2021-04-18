@@ -2,3 +2,4 @@
 
 make planck/rev6:dpwright
 make ymdk/ymd60:dpwright
+make cannonkeys/atlas:dpwright
